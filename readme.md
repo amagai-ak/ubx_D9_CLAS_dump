@@ -47,3 +47,10 @@ date,unix_time,ch,svid,cno,biterror,err_status
 * 2: erroneous
 
 このため，エラーステータス=1であれば正常．
+
+
+## グラフ作成例
+
+CSV出力をファイルに保存し，Excelでグラフ化
+
+![alt text](image.png)
