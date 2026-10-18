@@ -28,6 +28,9 @@ def main(args):
     if args.csv:
         print("date,unix_time,ch,svid,cno,biterror,err_status")
 
+    # 入力バッファをクリア
+    ser.reset_input_buffer()
+
     # UBXメッセージの受信と解析ループ
     try:
         while True:
